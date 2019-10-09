@@ -1,8 +1,10 @@
 # jobsLocator
 Byju's Front End Developer Hiring Challenge - JavaScript
 
-This endpoint containing a json list of jobs listings https://nut-case.s3.amazonaws.com/jobs.json
-Build an application to search and list jobs listings
+- This endpoint containing a json list of jobs listings https://nut-case.s3.amazonaws.com/jobs.json
+- Build an application to search and list jobs listings
+
+![Result](https://github.com/Md-Mudassir/jobsLocator/blob/master/css/byjus.JPG)
 
 ## Requirements and Output
 
@@ -12,8 +14,8 @@ Build an application to search and list jobs listings
 4. Display the total number of jobs forund base on user search
 
 ## Features
-User is able to sort based on job location and experience
-User is able to filter based on compnay name
+- User is able to sort based on job location and experience
+- User is able to filter based on compnay name
 
 ## Implementation
 I implemented it in JS by using High order functions, fetch API & Bootstrap 4.
