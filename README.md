@@ -4,6 +4,8 @@ Byju's Front End Developer Hiring Challenge - JavaScript
 This endpoint containing a json list of jobs listings https://nut-case.s3.amazonaws.com/jobs.json
 Build an application to search and list jobs listings
 
+![Result](https://github.com/Md-Mudassir/jobsLocator/blob/master/css/byjus.JPG)
+
 ## Requirements and Output
 
 1. User select the expirence or location or skill to search jobs
