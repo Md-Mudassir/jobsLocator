@@ -1,0 +1,54 @@
+<!-- Programmed By: Mohammed Mudassir -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Jobs Locator</title>
+</head>
+
+<body>
+    <!--CSS Spinner-->
+    <div class="spinner-wrapper">
+        <div class="spinner"></div>
+    </div>
+    <div class="container">
+        <h1 class="display-4 mb-1 text-center">Jobs Locator</h1>
+        <hr>
+        <!-- Filter options -->
+        <div id="filters" class="d-flex flex-row">
+
+            <input class="mr-2 form-control" onchange="getFilter()" type="text" id="city" list="city-datalist"
+                placeholder="City?">
+            <datalist id="city-datalist"></datalist>
+
+            <input class="mr-2 form-control" onchange="getFilter()" type="text" id="skills" list="skills-datalist"
+                placeholder="Skills?">
+            <datalist id="skills-datalist"></datalist>
+
+            <input class="mr-2 form-control" onchange="getFilter()" type="text" id="company" list="company-datalist"
+                placeholder="Company?">
+            <datalist id="company-datalist"></datalist>
+
+            <input class=" form-control" onchange="getFilter()" type="text" id="experience" list="experience-datalist"
+                placeholder="Experience?">
+            <datalist id="experience-datalist"></datalist>
+        </div>
+        <hr>
+        <!-- total jobs found text  -->
+        <p id="total" class="text-right"></p>
+        <!-- list of jobs  -->
+        <div id="output"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="preLoader.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
