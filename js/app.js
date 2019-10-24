@@ -67,12 +67,12 @@ function getJobs() {
           experienceList.appendChild(optionExperience);
         }
       });
-
+      let t0 = performance.now();
       let results = "";
+
       //Displaying all the jobs
       jobsResults.forEach(job => {
         results += `
-        
           <ul class="list-group mb-4 shadow-sm">
             <li class="list-group-item bg-dark text-light font-weight-bold">Title: ${job.title}</li>
             <li class="list-group-item">Company: ${job.companyname}</li>
@@ -86,6 +86,8 @@ function getJobs() {
         `;
       });
       document.getElementById("output").innerHTML = results;
+      let t1 = performance.now();
+      console.log("time taken is" + (t1 - t0));
     });
 }
 
