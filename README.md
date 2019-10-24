@@ -1,5 +1,6 @@
 # jobsLocator
-Byju's Front End Developer Hiring Challenge - JavaScript
+Byju's Front End Developer Challenge - ES6
+https://jobslocator.netlify.com/
 
 - This endpoint containing a json list of jobs listings https://nut-case.s3.amazonaws.com/jobs.json
 - Build an application to search and list jobs listings
